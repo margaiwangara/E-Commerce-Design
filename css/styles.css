@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.bg-dark-pink {
+  background: #C738D5; }
+
+.text-dark-pink {
+  color: #c738d5; }
+
+body {
+  background: #ced4da;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+#home-header {
+  border-bottom: 2px solid #D567E0; }
+  #home-header i {
+    margin-right: 2px; }
+  #home-header a {
+    text-decoration: none; }
+  #home-header a:hover {
+    color: #d567e0; }
+
+.navbar {
+  border-bottom: 2px solid #D567E0;
+  font-family: 'roboto', sans-serif; }
+  .navbar a.navbar-brand {
+    font-size: 25px !important; }
+
+#banner-image {
+  background: url("../img/pages/cosmetic-ad.jpg");
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: scroll; }
+  #banner-image .dark-overlay {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 500px;
+    background: rgba(0, 0, 0, 0.4); }
+  #banner-image button {
+    border: 3px solid #D567E0 !important;
+    color: #fff !important; }
+  #banner-image button:hover {
+    background: #d567e0; }
+
+#recently-added {
+  font-family: 'roboto', sans-serif; }
+  #recently-added .products-categories h3 {
+    padding: 40px 0px 10px 20px;
+    border-bottom: 2px solid #D567E0;
+    margin-bottom: 10px; }
+  #recently-added .products-categories ul {
+    padding: 0px 0px 20px 0px; }
+  #recently-added .products-categories ul > li .left-triangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid #fff;
+    display: none; }
+  #recently-added .products-categories ul > li {
+    list-style-type: none;
+    display: block;
+    padding: 8px 0px 5px 20px;
+    cursor: pointer;
+    position: relative; }
+  #recently-added .products-categories ul > li > a {
+    text-decoration: none;
+    color: #000; }
+  #recently-added .products-categories ul > li:hover {
+    background: #d567e0; }
+  #recently-added .products-column .card {
+    border: none; }
+    #recently-added .products-column .card a {
+      text-decoration: none; }
+
+#featured-products {
+  font-family: 'roboto', sans-serif; }
+  #featured-products .card {
+    border: none; }
+    #featured-products .card a {
+      text-decoration: none; }
+
+#products-category-solo .img-container img {
+  height: 100%;
+  width: 600px; }
+#products-category-solo .card-columns .card {
+  border: none;
+  overflow: hidden; }
+#products-category-solo a {
+  text-decoration: none; }
