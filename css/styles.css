@@ -113,3 +113,29 @@ body {
     content: "";
     display: block;
     background: rgba(0, 0, 0, 0.4); }
+
+#home-footer {
+  font-family: 'roboto', sans-serif; }
+  #home-footer .home-footer-inner {
+    padding: 20px 0px; }
+  #home-footer ul > li {
+    display: block;
+    padding: 5px 0px; }
+  #home-footer ul > li a {
+    text-decoration: none; }
+  #home-footer .social-icons ul {
+    padding: 0px; }
+  #home-footer .social-icons > ul > li {
+    display: inline !important;
+    padding-right: 5px;
+    list-style-type: none; }
+  #home-footer .availability-space {
+    background: #ced4da;
+    height: 50px;
+    width: 100%;
+    border-radius: none;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px #f5f5f5; }
+    #home-footer .availability-space .availability-space-text {
+      font-size: 10px;
+      line-height: 0.5; }
