@@ -139,3 +139,58 @@ body {
     #home-footer .availability-space .availability-space-text {
       font-size: 10px;
       line-height: 0.5; }
+
+#products-list .product-filter-left {
+  font-family: 'roboto', sans-serif; }
+  #products-list .product-filter-left a {
+    text-decoration: none;
+    color: #000; }
+  #products-list .product-filter-left a:hover {
+    color: #C738D5; }
+  #products-list .product-filter-left ul > li {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  #products-list .product-filter-left .color-grid {
+    display: inline-block;
+    padding: 5px; }
+  #products-list .product-filter-left .input-group-text {
+    cursor: pointer; }
+
+#right-carousel {
+  min-height: 350px;
+  width: 100%; }
+  #right-carousel .carousel-item {
+    height: 350px;
+    width: 100%; }
+  #right-carousel .banner-image-1 {
+    background: url("../img/banners/banner-image-1.jpg");
+    background-size: cover; }
+  #right-carousel .banner-image-2 {
+    background: url("../img/banners/banner-image-2.jpg");
+    background-size: cover; }
+  #right-carousel .banner-image-3 {
+    background: url("../img/banners/banner-image-3.jpg");
+    background-size: cover; }
+  #right-carousel .banner-image-4 {
+    background: url("../img/banners/banner-image-4.jpg");
+    background-size: cover; }
+  #right-carousel .right-carousel-narrow {
+    min-height: 350px; }
+    #right-carousel .right-carousel-narrow .card {
+      max-height: 350px;
+      position: relative;
+      overflow: hidden; }
+
+#main-products-display .sort-section {
+  min-height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  background: #f1f1f1;
+  border-radius: 8px; }
+  #main-products-display .sort-section a {
+    text-decoration: none; }
+#main-products-display .products-show-all .card {
+  border: none; }
+#main-products-display .products-show-all a {
+  text-decoration: none; }

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <!--CSS Custom Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Design Parts | Products</title>
+</head>
+<body>
+  <header id="home-header" class="bg-light">
+    <div class="home-header-inner container ">
+      <div class="clearfix">
+        <div class="float-left py-2">
+          <a href="#">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="float-right">
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light py-2">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        almasparlour
+      </a>
+
+      <div class="navbar-toggler" data-toggle="collapse" data-target="#userNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+
+      <div class="collapse navbar-collapse" id="userNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link text-uppercase dropdown-toggle" data-toggle="dropdown">
+              products
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Product One</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Two</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Three</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Four</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">about</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link dropdown-toggle btn btn-outline-secondary mr-2" data-toggle="dropdown">
+              <i class="fas fa-user-plus"></i> Register
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link dropdown-toggle btn btn-outline-secondary" data-toggle="dropdown">
+              <i class="fas fa-shopping-cart"></i><span class="badge badge-success">0</span> Cart
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="products-list" class="my-3">
+    <div class="products-list-inner px-3">
+      <div class="row">
+        <div class="col-lg-3 d-none d-lg-block">
+          <div class="product-filter-left">
+            <div class="card">
+              <div class="card-body">
+                  <h5 class="m-0 font-weight-bold">Products</h5>
+                  <p class="text-muted small">
+                    1200 products available
+                  </p>
+                  <hr>
+                  <h6 class="font-weight-bold">Categories</h6>
+                  <ul class="list-unstyled small">
+                    <li>
+                      <a href="#">Product One(200)</a>
+                    </li>
+                    <li>
+                      <a href="#">Product Two(200)</a>
+                    </li>
+                    <li>
+                      <a href="#">Product Three(500)</a>
+                    </li>
+                    <li>
+                      <a href="#">Product Four(300)</a>
+                    </li>
+                  </ul>
+                  <hr>
+                  <h6 class="font-weight-bold">Pricing</h6>
+                  <div class="price-difference-filter">
+                    <div class="input-group input-group-sm">
+                      <input type="text" class="form-control mr-1" placeholder="Kshs. Min">
+                      <i class="fas fa-minus my-auto"></i>
+                      <input type="text" class="form-control ml-1" placeholder="Kshs. Max">
+                      <div class="input-group-append">
+                        <div class="input-group-text">
+                          <i class="fas fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="list-unstyled small price-difference-options my-2">
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck2" name="example1">
+                        <label class="custom-control-label" for="customCheck2">1000 and below(25)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck3">
+                        <label class="custom-control-label" for="customCheck3">1001-2300(25)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck4">
+                        <label class="custom-control-label" for="customCheck4">2301-5000(250)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck5">
+                        <label class="custom-control-label" for="customCheck5">5001-9000(500)</label>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <hr>
+                  <h6 class="font-weight-bold">Product Rating</h6>
+                  <ul class="small list-unstyled my-2">
+                    <li>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" name="#" id="customRadio" class="custom-control-input">
+                        <label for="customRadio" class="custom-control-label">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          (150)
+                        </label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" name="#" id="customRadio1" class="custom-control-input">
+                        <label for="customRadio1" class="custom-control-label">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          (150)
+                        </label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" name="#" id="customRadio2" class="custom-control-input">
+                        <label for="customRadio2" class="custom-control-label">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          (300)
+                        </label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-radio d-inline">
+                        <input type="radio" name="#" id="customRadio3" class="custom-control-input">
+                        <label for="customRadio3" class="custom-control-label">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          (200)
+                        </label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" name="#" id="customRadio4" class="custom-control-input">
+                        <label for="customRadio4" class="custom-control-label">
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          (150)
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                  <hr>
+                  <h6 class="font-weight-bold">Color</h6>
+                  <div class="color-grid">
+                    <span class="color1 text-primary">primary</span>
+                    <span class="color2 text-secondary">secondary</span>
+                    <span class="color3 text-danger">danger</span>
+                    <span class="color4 text-info">info</span>
+                    <span class="color5 text-warning">warning</span>
+                    <span class="color6 text-dark">dark</<span>
+
+                  </div>
+
+                  <hr>
+                  <h6 class="font-weight-bold">Size</h6>
+                  <div class="input-group input-group-sm">
+                    <input type="text" name="size" id="size" class="form-control" placeholder="Search Size">
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <i class="fas fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <ul class="list-unstyled small my-2">
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl" class="custom-control-input">
+                        <label for="sizeControl" class="custom-control-label">XXS (Xtra Xtra Small)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl1" class="custom-control-input">
+                        <label for="sizeControl1" class="custom-control-label">XS (Xtra Small)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl2" class="custom-control-input">
+                        <label for="sizeControl2" class="custom-control-label">S (Small)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl3" class="custom-control-input">
+                        <label for="sizeControl3" class="custom-control-label">M (Medium)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl4" class="custom-control-input">
+                        <label for="sizeControl4" class="custom-control-label">M - L (Medium Large)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl5" class="custom-control-input">
+                        <label for="sizeControl5" class="custom-control-label">L (Large)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl6" class="custom-control-input">
+                        <label for="sizeControl6" class="custom-control-label">XL (Xtra Large)</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="#" id="sizeControl7" class="custom-control-input">
+                        <label for="sizeControl7" class="custom-control-label">XXL (Xtra Xtra Large)</label>
+                      </div>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div id="right-carousel">
+            <div class="row">
+              <div class="col-md-9 d-none d-lg-block right-carousel-wide">
+                <div class="carousel-slide" id="products-slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#products-slide"></li>
+                    <li data-slide-to="1" data-target="#products-slide"></li>
+                    <li data-slide-to="2" data-target="#products-slide"></li>
+                    <li data-slide-to="3" data-target="#products-slide"></li>
+                  </ol>
+
+                  <div class="carousel-inner">
+                    <div class="carousel-item active banner-image-1">
+
+                    </div>
+                    <div class="carousel-item banner-image-2">
+
+                    </div>
+                    <div class="carousel-item banner-image-3">
+
+                    </div>
+                    <div class="carousel-item banner-image-4">
+
+                    </div>
+                  </div>
+
+                  <a href="#products-slide" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a href="#products-slide" class="carousel-control-next " data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="right-carousel-narrow">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="h6 py-2 border-bottom mb-2 font-weight-bold text-center">Deals Of The Week</h4>
+
+                      <div class="carousel slide" id="products-slide-narrow" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <a href="#">
+                                <img src="img/banners/banner-image-5.jpg" alt="product-image-1" class="img-fluid">
+                                <h6 class="h6 text-capitalize">make up kit on our list for today's products</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <a href="#">
+                                <img src="img/banners/banner-image-5.jpg" alt="product-image-1" class="img-fluid">
+                                <h6 class="h6 text-capitalize">make up kit on our list for today's products</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <a href="#products-slide-narrow" class="carousel-control-prev" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#products-slide-narrow" class="carousel-control-next" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="main-products-display" class="my-3">
+            <div class="main-products-display-inner">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="sort-section text-capitalize">
+                      <div class="row">
+                        <div class="col-md-2">
+                          <div class="border-right">
+                            <a href="#" class="btn btn-link">most sold</a>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="border-right">
+                            <a href="#" class="btn btn-link">cheapest</a>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="border-right">
+                            <a href="#" class="btn btn-link">most expensive</a>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="border-right">
+                            <a href="#" class="btn btn-link">most recent</a>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="border-right">
+                            <a href="#" class="btn btn-link">highest rated</a>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div>
+                            <div class="dropdown">
+                              <a href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-link">
+                                Other
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown-item">
+                                  <a href="#">Option One<a>
+                                  </li>
+                                <li class="dropdown-item">
+                                  <a href="#">Option Two</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  <div class="all-products-section py-2 mt-3">
+                    <div class="products-show-all">
+                      <div class="row">
+                        <div class="col-md-3 col-sm-2">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-2">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-2">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-2">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card">
+                            <div class="card-body">
+                              <a href="#">
+                                <img src="img/products/product-2.jpg" alt="product-image-5" class="img-fluid">
+                                <h6 class="h6 text-capitalize">dell inspiron laptop with a wide display</h6>
+                              </a>
+                              <div class="d-flex text-center">
+                                <div class="align-content-start p-2 bg-dark-pink rounded">
+                                  25%
+                                </div>
+                                <div class="align-content-end">
+                                  <strike class="small text-muted">Kshs. 2,050.25</strike><br>
+                                  <p class="pb-0 mb-0 pl-2 font-weight-bold">Kshs. 1,050.25</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr>
+                    <div class="pagination-display">
+                      <div class="row">
+                        <div class="col-md-8 offset-md-4 mt-2">
+                            <ul class="pagination py-2">
+                              <li class="page-item">
+                                <a href="#" class="page-link">Previous</a>
+                              </li>
+                              <li class="page-item">
+                                <a href="#" class="page-link">2</a>
+                              </li>
+                              <li class="page-item">
+                                <a href="#" class="page-link">3</a>
+                              </li>
+                              <li class="page-item">
+                                <a href="#" class="page-link">Next</a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+    <!--Scripts-->
+    <!--Bootstrap and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Custom Script-->
+    <script>
+      $(document).ready(function(){
+        $(".carousel-control-prev-icon").click(function(){
+          $("#products-slide").carousel("prev");
+        });
+
+        $(".carousel-control-next-icon").click(function(){
+          $("#products-slide").carousel("next");
+        });
+
+        //get current year
+        $('#year').text(new Date().getFullYear());
+      });
+
+    </script>
+</body>
+</html>

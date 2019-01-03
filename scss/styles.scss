@@ -13,6 +13,7 @@ $color-ten: "#fff";
 $color-eleven: "#191970";
 $color-twelve: #D567E0;
 $color-thirteen: #C738D5;
+$color-fourteen: #aac0b3;
 
 .bg-dark-pink{
   background: #C738D5;
@@ -231,3 +232,99 @@ body{
     }
   }
 }
+
+#products-list{
+
+  .product-filter-left{
+    font-family: 'roboto', sans-serif;
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover{
+      color: $color-thirteen;
+    }
+
+    ul > li{
+      display: block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .color-grid{
+      display: inline-block;
+      padding: 5px;
+    }
+    .input-group-text{
+      cursor: pointer;
+    }
+
+
+
+  }
+
+}
+
+#right-carousel{
+  min-height: 350px;
+  width: 100%;
+    .carousel-item{
+      height: 350px;
+      width: 100%;
+
+    }
+
+    .banner-image-1{
+      background: url("../img/banners/banner-image-1.jpg");
+      background-size: cover;
+    }
+    .banner-image-2{
+      background: url("../img/banners/banner-image-2.jpg");
+      background-size: cover;
+    }
+    .banner-image-3{
+      background: url("../img/banners/banner-image-3.jpg");
+      background-size: cover;
+    }
+    .banner-image-4{
+      background: url("../img/banners/banner-image-4.jpg");
+      background-size: cover;
+    }
+
+    .right-carousel-narrow{
+      min-height: 350px;
+
+      .card{
+        max-height: 350px;
+        position: relative;
+        overflow: hidden;
+      }
+    }
+
+
+  }
+
+  #main-products-display{
+    .sort-section{
+      min-height: 40px;
+      width: 100%;
+      padding: 0px 10px;
+      background: #f1f1f1;
+      border-radius: 8px;
+
+      a{
+        text-decoration: none;
+
+      }
+    }
+
+    .products-show-all{
+
+      .card{
+        border: none;
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+  }
