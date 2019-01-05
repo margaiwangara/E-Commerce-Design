@@ -411,6 +411,30 @@ body{
       border-top-right-radius: 0px !important;
       .tab-pane{
         padding-top: 15px;
+
+        .d-flex{
+          padding-bottom: 10px;
+          .align-content-start{
+            width: 40%;
+            padding-top: 5px;
+          }
+          .align-content-center{
+            width: 50%;
+            padding-top: 5px;
+          }
+          .align-content-end{
+            width: 10%;
+            padding-bottom: 5px;
+            padding-left: 2px;
+          }
+
+        }
+
+        .ratings-right{
+          padding: 5px;
+          border: solid 2px #aac0b3;
+          border-radius: 10px;
+        }
       }
     }
     .nav-tabs{
