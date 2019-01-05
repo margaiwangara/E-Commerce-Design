@@ -194,3 +194,73 @@ body {
   border: none; }
 #main-products-display .products-show-all a {
   text-decoration: none; }
+
+#item-details .color-container {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 2px solid #ced4da;
+  cursor: pointer; }
+#item-details .color-blue {
+  background: blue; }
+#item-details .color-green {
+  background: green; }
+#item-details .color-yellow {
+  background: yellow; }
+#item-details .color-purple {
+  background: purple; }
+#item-details .color-pink {
+  background: pink; }
+#item-details .color-black {
+  background: black; }
+#item-details .color-white {
+  background: white; }
+#item-details .size-container {
+  width: 50px;
+  display: inline-block;
+  border: 2px solid #ced4da;
+  cursor: pointer;
+  background: #fff;
+  text-align: center;
+  padding: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px; }
+#item-details .quantity-input {
+  position: relative; }
+  #item-details .quantity-input .form-control {
+    border-radius: none !important; }
+  #item-details .quantity-input input[type='text'] {
+    text-align: center; }
+  #item-details .quantity-input .sneaker-text {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    bottom: 0;
+    font-size: 10px; }
+#item-details a {
+  text-decoration: none; }
+#item-details .related-products .card-deck .card {
+  border: none; }
+#item-details .tabs-display .card {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important; }
+  #item-details .tabs-display .card .tab-pane {
+    padding-top: 15px; }
+#item-details .tabs-display .nav-tabs {
+  background: grey; }
+  #item-details .tabs-display .nav-tabs a {
+    color: #fff; }
+  #item-details .tabs-display .nav-tabs a.active {
+    color: #000;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important; }
+  #item-details .tabs-display .nav-tabs a:hover {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-top: 0px; }
+  #item-details .tabs-display .nav-tabs .nav-item {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border: 0px; }
