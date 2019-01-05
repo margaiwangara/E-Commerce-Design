@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 #cart-holder-section a {
   text-decoration: none; }
+#cart-holder-section .btn-primary {
+  background: pink !important;
+  border: pink;
+  color: #000; }
+#cart-holder-section .pink-border {
+  border: pink; }
+#cart-holder-section .pink-bg {
+  background: pink; }
+#cart-holder-section .pink-text {
+  color: pink; }
 #cart-holder-section .cart-adv {
   height: 100px;
   width: 100%;
@@ -27,3 +38,15 @@
   color: #000;
   font-weight: bold;
   text-align: center; }
+#cart-holder-section .cart-right .card {
+  border-bottom-left-radius: none !important;
+  border-bottom-right-radius: none !important; }
+#cart-holder-section .cart-right .totals-display {
+  border-right: pink 2px solid;
+  border-left: pink 2px solid;
+  padding-left: 10px;
+  padding-right: 10px; }
+  #cart-holder-section .cart-right .totals-display .totals-display-inner {
+    padding: 10px 0px; }
+#cart-holder-section .cart-right .coupon-code a {
+  font-style: 'roboto', sans-serif; }
