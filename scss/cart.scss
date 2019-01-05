@@ -1,0 +1,53 @@
+#cart-holder-section{
+  a{
+    text-decoration: none;
+  }
+  .cart-adv{
+    height: 100px;
+    width: 100%;
+    background: url("../img/banners/banner-image-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cart-messages{
+    .card{
+      border-left: 10px solid pink;
+
+      .bell-badge{
+        position: relative;
+
+        .badge{
+          position: absolute;
+          top: 10px;
+          left: 10px;
+        }
+      }
+    }
+  }
+
+  .cart-save{
+    .card{
+      border-left: 10px solid pink;
+    }
+  }
+
+  .cart-details{
+    .item-cart-count{
+      .sneaker-text{
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        text-align: center;
+        bottom: 0;
+        font-size: 10px;
+
+      }
+      input[type='text']{
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}
