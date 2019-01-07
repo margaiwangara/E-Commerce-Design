@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <!--CSS Custom Stylesheet-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/checkout.css" type="text/css">
+    <title>Design Parts | Checkout</title>
+</head>
+<body>
+  <header id="home-header" class="bg-light">
+    <div class="home-header-inner container ">
+      <div class="clearfix">
+        <div class="float-left py-2">
+          <a href="#">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="float-right">
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light py-2">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        almasparlour
+      </a>
+
+      <div class="navbar-toggler" data-toggle="collapse" data-target="#userNavbar">
+        <span class="navbar-toggle-icon"></span>
+      </div>
+
+      <div class="collapse navbar-collapse" id="userNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link text-uppercase dropdown-toggle" data-toggle="dropdown">
+              products
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Product One</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Two</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Three</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Product Four</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-uppercase">about</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link dropdown-toggle btn btn-outline-secondary mr-2" data-toggle="dropdown">
+              <i class="fas fa-user-plus"></i> Register
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link dropdown-toggle btn btn-outline-secondary" data-toggle="dropdown">
+              <i class="fas fa-shopping-cart"></i><span class="badge badge-success">0</span> Cart
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="checkout-container" class="my-3">
+    <div class="checkout-container-inner container">
+      <div class="row">
+        <div class="col-md-9 mb-2">
+          <div class="checkout-left">
+            <div class="card">
+              <div class="card-body">
+                <h3>
+                  Checkout
+                </h3>
+                <p class="h6 text-capitalize">
+                  please input your address for physical delivery and billing
+                </p>
+                <div class="address-display">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h4 class="h6 text-capitalize py-2 text-secondary">
+                        physical address
+                      </h4>
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="h6">
+                            <i class="fas fa-user-circle"></i> Margai Wangara
+                          </h5>
+                          <h6 class="small text-muted">
+                            <i class="fas fa-mobile-alt"></i> 0125 555 2458
+                          </h6>
+                          <h6>
+                            <i class="far fa-address-card"></i> St Peters Mumias Boys High School
+                          </h6>
+                          <h6 class="small text-muted">
+                            <i class="far fa-address-book"></i> St Peter's High School, Mumias, Kakamega
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <h4 class="h6 text-capitalize py-2 text-secondary">
+                        billing address
+                      </h4>
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="h6">
+                            <i class="fas fa-user-circle"></i> Margai Wangara
+                          </h5>
+                          <h6 class="small text-muted">
+                            <i class="fas fa-mobile-alt"></i> 0125 555 2458
+                          </h6>
+                          <h6>
+                            <i class="far fa-address-card"></i> St Peters Mumias Boys High School
+                          </h6>
+                          <h6 class="small text-muted">
+                            <i class="far fa-address-book"></i> St Peter's High School, Mumias, Kakamega
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="not-member container">
+                    <form action="#">
+                      <fieldset class="form-group">
+                        <legend class="display-5 py-2 border-bottom">
+                          Address Details
+                        </legend>
+                        <p class="small">
+                          <i class="fas fa-info-circle"></i> Please input you delivery address information below
+                        </p>
+                        <div class="alert alert-danger">
+                          Sample Error Message
+                        </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Surname">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone">
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Physical Address Name">
+                          </div>
+                          <div class="form-group">
+                            <textarea name="#" id="#" rows="5" class="form-control" placeholder="Physical Address"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Billing Address Name">
+                          </div>
+                          <div class="form-group">
+                            <textarea name="#" id="#" rows="5" class="form-control" placeholder="Billing Address"></textarea>
+                          </div>
+                          <button class="btn btn-block btn-primary text-center">
+                            Save
+                          </button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="checkout-right">
+            <div class="card">
+              <div class="card-body">
+                <div class="order-summary text-lg-right">
+                  <h3 class="h5 font-weight-bold mb-0">
+                    Order Summary
+                  </h3>
+                  <h6 class="text-muted mb-3">
+                    1 Item(s)
+                  </h6>
+                  <h6 class="text-muted mb-0 small">
+                    Amount To Be Paid
+                  </h6>
+                  <h3 class="display-5 mt-0 mb-3">
+                    Kshs. 600.25
+                  </h3>
+                  <div class="complete-shopping-btn">
+                    <button class="btn btn-primary btn-block py-2">
+                      Complete Shopping <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="totals-display">
+              <div class="totals-display-inner">
+                <div class="text-lg-right">
+                  <h6 class="mb-0 text-muted small">
+                    Total Amount(+Taxes)
+                  </h6>
+                  <h3 class="h4 mb-2">
+                    Ksh. 650.25
+                  </h3>
+                  <h6 class="mb-0 text-muted small">
+                    <i class="fas fa-info-circle"></i> Cargo
+                  </h6>
+                  <h3 class="h4 mb-3">
+                    Ksh. 50.00
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="coupon-code">
+              <div class="card">
+                <div class="card-body">
+                    <a href="#" class="h6">
+                       <i class="fas fa-tag"></i> Use coupon code
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--Scripts-->
+    <!--Bootstrap and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Custom Script-->
+    <script>
+        //get current year
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+</html>

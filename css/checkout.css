@@ -1,0 +1,12 @@
+#checkout-container .checkout-right .card {
+  border-bottom-left-radius: none !important;
+  border-bottom-right-radius: none !important; }
+#checkout-container .checkout-right .totals-display {
+  border-right: pink 2px solid;
+  border-left: pink 2px solid;
+  padding-left: 10px;
+  padding-right: 10px; }
+  #checkout-container .checkout-right .totals-display .totals-display-inner {
+    padding: 10px 0px; }
+#checkout-container .checkout-right .coupon-code a {
+  font-style: 'roboto', sans-serif; }
