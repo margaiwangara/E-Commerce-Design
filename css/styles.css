@@ -11,16 +11,16 @@ body {
   overflow-x: hidden; }
 
 #home-header {
-  border-bottom: 2px solid #D567E0; }
+  border-bottom: 3px solid #8b4513; }
   #home-header i {
     margin-right: 2px; }
   #home-header a {
     text-decoration: none; }
   #home-header a:hover {
-    color: #d567e0; }
+    color: #8b4513; }
 
 .navbar {
-  border-bottom: 2px solid #D567E0;
+  border-bottom: 3px solid #8b4513;
   font-family: 'roboto', sans-serif; }
   .navbar a.navbar-brand {
     font-size: 25px !important; }
@@ -40,16 +40,16 @@ body {
     min-height: 500px;
     background: rgba(0, 0, 0, 0.4); }
   #banner-image button {
-    border: 3px solid #D567E0 !important;
+    border: 3px solid #8b4513 !important;
     color: #fff !important; }
   #banner-image button:hover {
-    background: #d567e0; }
+    background: #8b4513; }
 
 #recently-added {
   font-family: 'roboto', sans-serif; }
   #recently-added .products-categories h3 {
     padding: 40px 0px 10px 20px;
-    border-bottom: 2px solid #D567E0;
+    border-bottom: 2px solid #8b4513;
     margin-bottom: 10px; }
   #recently-added .products-categories ul {
     padding: 0px 0px 20px 0px; }
@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     color: #000; }
   #recently-added .products-categories ul > li:hover {
-    background: #d567e0; }
+    background: #8b4513; }
   #recently-added .products-column .card {
     border: none; }
     #recently-added .products-column .card a {
