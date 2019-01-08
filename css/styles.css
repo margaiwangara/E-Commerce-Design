@@ -21,9 +21,9 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  right: 0;
-  bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 80px;
 }
 
 .navbar {
@@ -31,6 +31,12 @@ body {
   font-family: 'roboto', sans-serif; }
   .navbar a.navbar-brand {
     font-size: 25px !important; }
+
+.navbar a.navbar-brand{
+  font-size: 35px !important;
+  font-weight: bold;
+  color: #8b4513;
+}
 
 #banner-image {
   background: url("../img/pages/cosmetic-ad.jpg");
